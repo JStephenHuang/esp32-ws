@@ -1,0 +1,32 @@
+# ESP-IDF build output and generated configuration
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+**/managed_components/
+**/dependencies.lock
+**/dependencies.lock.*
+
+# Local ESP-IDF installations and caches
+.espressif/
+
+# CMake and compilation databases
+**/CMakeCache.txt
+**/CMakeFiles/
+**/cmake_install.cmake
+**/compile_commands.json
+
+# Python caches and virtual environments
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
