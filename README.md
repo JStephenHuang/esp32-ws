@@ -97,6 +97,8 @@ Specify the port when flashing.
 
 Typical serial devices include `/dev/ttyUSB0` and `/dev/ttyACM0`. If the board is not visible, check the host device and permissions before reopening the container:
 
+Exit the console with `Ctrl + ]`
+
 ```bash
 ls -l /dev/ttyUSB* /dev/ttyACM* 2>/dev/null
 ```
